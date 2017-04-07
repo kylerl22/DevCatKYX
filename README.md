@@ -1,1 +1,2 @@
 # DevCatKYX
+When we first began to create our website, we were frustrated on the time frame we had because we did not start building our website til March 30, 2017. Although we had to rush to create our website, we brainstormed quikly to come up with KYX. We did not meet the full criteria for the website, but we di as much as we could. We chose green, orange, and blue as our theme because the colors went well together.

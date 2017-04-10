@@ -1,0 +1,87 @@
+print("Welcome to the Game. \nThis game allows you to go on an amazing text-based adventure.")
+print("\nYou may answer the questions in the form of direction exactly as follows: North, South, East and West or in a Yes of No fashion. As the question calls for.")
+print("\nAny other form of the answer will result in a discontiunment of the game.")
+
+user_answer = input("\nAre you ready to begin? ")
+
+if user_answer == 'Yes':
+    print("\nYou spawn into a giant field. To the North of you is a snow-capped mountain. To the East there is an ocean as far as you can see. To the South there is a forest. To the West there are hills.")
+    direction_1 = input("Which direction do you wish to go? ")
+
+else:
+    print("You are unworthy of such a journey.")
+
+
+if direction_1 == "North":
+    print("\nThe Mountains consume you as you travel into the nearest valley. Your stomach starts to rumble as if it has been deprived of food. You see a batch of odd berries growing near the base of a nearby mountain.")
+    user_answer_2 = input("Would you like to eat the berries? ")
+
+    if user_answer_2 == 'Yes':
+        print("\nYou start to feel queasy.")
+
+    else:
+        print("You continue North into the mountains with your stomach grumbling.")
+
+usr_walk=input("\nAs you walk further into the mountains you hear rocks fallign down the side. So that means something is up there. Would you like to hide for the night? ")
+
+if usr_walk=='Yes':
+    print("\nAs the sun falls over the mountains that have engulfed you; you come upon a small outcroping. You run towards the slot in the rock. You made is safely. But the rocks keep falling as you drift off to sleep.")
+
+else:
+    pit_stop = input("\nThe walking has given you feet blisters. The sun is going down and you can swear that you see shadows dancing along the walls that you cannot claim. Find a place to rest?")
+
+    if pit_stop == 'Yes':
+        print("\nAs you blindly stumble around the cliff faces you twist your ankle and cannot put pressure on it. You decide to huddle against a canyon wall and hope for the best.")
+
+    else:
+        possible_buddy=input("\nThere is no doubt now. YOU ARE BEING FOLLOWED. Panic consumes you. The darkness has taken over. The moon providing little help. Your breathing has been laboruos for the past hour. You're done. End Your Game?")
+
+        if possible_buddy=="Yes":
+            print("\nShame. Waste of time that was.")
+
+        else:
+            print("\nYou have no choice. You stand your ground. Then you see her. A small, mousey woman in her possible late twenties appears. She sees you and smiles. 'Thank God! Another Human! After being throw into this game I had lost all hope. Oh, pardon my manners, I am Kendall.'")
+
+intro= input("What's your name?")
+print("Well, {} can we ally?".format(intro))
+
+if direction_1 == "East":
+    print("\nAs you walk towards the Ocean you start feeling the ground squish under your step.")
+    user_answer_3 = input("Continue on East towards the ocean? ")
+
+    if user_answer_3 == 'Yes':
+        print("\nAs you walk along you lose both of your shoes to the wetlands.")
+
+    else:
+        print("\nYou are back at your starting point. To the North of you is a snow-capped mountain. To the East there is an ocean as far as you can see. To the South there is a forest. To the West there are hills. ")
+        
+
+if direction_1 == "South":
+    print("\nYou made it to the Forest!")
+    user_answer_4 = input("Would you like to go in?")
+	
+    if user_answer_4 == "Yes":
+        option_1 = input("\nAs you approach the Forest you see it is extremely dense. Would you like to walk the tree-line first? ")
+	
+    else:
+        option_2 = input("Would you like to return to spawn?")
+	
+        if option_2 == "Yes":
+            print("You spawn into a giant field. To the North of you is a snow-capped mountain. To the East there is an ocean as far as you can see. To the South there is a forest. To the West there are hills")
+            direction_1 = input("Which direction do you wish to go? ")
+		
+        else:
+            print("You were assassinated.")
+        
+		
+if direction_1 == "West":
+    print("\nWalking in these Hills has got you dehydrated. You start to feel dizzy as the day wares on.")
+    user_answer_7 = input("Stop for the night?")
+
+    if user_answer_7 == "No":
+        print("\nYou keep wandering into the night. As you do you can hear the howls of wild dogs close beside you. You start to break into a cold sweat and take off sprinting. After only seconds of your flight the pack is on you.")
+
+    else:
+        print("\nYou stop a short distance away from a river.")
+        user_water = input("Would you like to get water from the river?")
+
